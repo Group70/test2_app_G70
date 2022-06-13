@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".My_data"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/ednom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/enter_your_nom"
+
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#78909C"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/enter_your_age"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#283593"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/insert" />
+
+        <Button
+            android:id="@+id/btnaffiche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/affiche"
+            tools:text="affiche" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnodif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="80"
+                android:text="@string/modifier"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/edtxtid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:ems="5"
+                android:hint="@string/id"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="#000000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btngogestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/go_gestion"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listagent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

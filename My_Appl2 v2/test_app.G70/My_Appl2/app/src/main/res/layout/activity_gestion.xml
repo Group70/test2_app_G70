@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral99"
+    tools:context=".gestion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgbtnclient"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/animationbutton"
+                android:contentDescription="@string/client"
+                app:srcCompat="@drawable/client1" />
+
+            <ImageButton
+                android:id="@+id/imgbtnfournisseur"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/animationbutton"
+                android:contentDescription="@string/fournisseur"
+                app:srcCompat="@drawable/fournisseur1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgbtnbondec"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/animationbutton"
+                android:contentDescription="@string/article"
+                app:srcCompat="@drawable/article" />
+
+            <ImageButton
+                android:id="@+id/imgbtnfdevis"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/animationbutton"
+                android:contentDescription="@string/bon_de_commande"
+                app:srcCompat="@drawable/bin_de_connamde" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgbtnacticle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/animationbutton"
+                android:contentDescription="@string/ARTICLE"
+                app:srcCompat="@drawable/icon_acticle" />
+
+            <ImageButton
+                android:id="@+id/imgbtnfacture"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/animationbutton"
+                android:contentDescription="@string/facture"
+                app:srcCompat="@drawable/icon_facture" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btncalcule"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/animationbutton"
+                android:contentDescription="@string/calcule"
+                app:srcCompat="@drawable/icon_calcule" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/animationbutton"
+                android:contentDescription="@string/parameter"
+                app:srcCompat="@drawable/ic_baseline_settings_24" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
